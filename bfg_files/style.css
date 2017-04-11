@@ -1,0 +1,387 @@
+* {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+body {
+	margin: 18px 0 0 0;
+	padding: 0 0;
+	background: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+	body.samurai_warrior {
+		background-color: #3e1909;
+		background-image: url('/images/samurai_warrior_bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top center;
+	}
+	
+	body.starfleet_commander {
+		background-color: #000000;
+		background-image: url('/images/starfleet_commander_bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top center;
+	}
+
+	body.mafia_boss {
+		background-color: #9e6c38;
+		background-image: url('/images/mafia_boss_bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top center;
+	}
+	
+
+	body.blue_frog {
+	  background-color: #053a64;
+		background-image: url('/images/blue_frog_bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top center;
+	}
+	
+	body.casino_tycoon {
+		background-color: #540908;
+	  background-image: url('/images/casino_tycoon_bg.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position: top center;
+	}
+	
+	body.card_games {
+		background-color: #193116;
+	  background-image: url('/images/card_games_bg.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position: top center;
+	}
+
+img {
+	border: none;
+	text-decoration: none;
+	padding: 0 0;
+}
+
+hr {
+	clear: both;
+	margin: 10px 0;
+}
+
+a {
+	color: #166ea6;
+
+}
+	a:hover {
+		background-color: rgba(255,255,255,0.85);
+		text-decoration: none;
+	}
+
+	a img {
+		text-decoration: none;
+		border: none;
+		padding: 0 0;
+	}
+	
+	/*
+	padding: 5px;
+	margin: 0 0 0 -5px;
+	*/
+
+p a {
+
+}
+
+p a:hover {
+	
+}
+
+h1 {
+	font-size: 39px;
+}
+
+h2 {
+	margin: 30px 0 0 -2px;
+}
+
+	.col_right h2 {
+		margin: 0 0 0 -2px;
+	}
+
+h3 {
+	font-weight: normal;
+	clear: both;
+	padding: 25px 0 15px 0;
+}
+
+	#blog h3 {
+		padding: 4px 0;
+		margin: 5px 0;
+	}
+
+	
+h4 {
+	font-size: 14px;
+}
+	
+	.jobs h4 {
+		margin: 12px 0 5px 0;
+	}
+
+h5 {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 2px 0;
+}
+
+	.footerBlock h5 {
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 0 0 6px 0;
+	} 
+
+.nav_bar {
+	list-style-type: none;
+	margin: 0 0 40px 0;
+	
+}
+	.nav_bar li {
+		width: 100%;
+		padding: 14px 0 14px 0;
+	}	
+	
+	.nav_bar li.active {
+		width: 100%;
+		padding: 14px 0 14px 0;
+		background: url('/images/teal_bg_80.png');
+		background: rgba(47,107,145,0.80);
+	}
+	
+
+	.nav_bar li a {
+		padding: 0 0 0 25px;
+		font-size: 13px;
+		color: #383838;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	
+	.nav_bar li a:hover {
+		background: none;
+		color: #ffffff;
+	}
+	
+	.nav_bar li.active a, .nav_bar li.active a:hover  {
+		color: #ffffff;
+	}
+	
+
+
+#content_wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+	#content_wrapper .header {
+		width:235px;
+		margin: 0 0 0 20px;
+		float: left;
+		background: url('/images/white_bg_25.png');
+		background: rgba(255,255,255,0.40);
+	}
+	
+	#content_wrapper .main {
+		width: 615px;
+		padding: 35px;
+		margin: 0 20px 20px 0;
+		background: url('/images/white_bg_65.png');
+		background: rgba(255,255,255,0.75);
+		float: right;		
+	}
+	
+	#content_wrapper .contact {
+		display: none;
+	}
+	
+	#content_wrapper .main #blog {
+		width: 625px;
+		overflow: scroll;
+	}
+	
+	#content_wrapper .main p {
+		font-size: 12px;
+		padding: 0 0 10px 0;
+		line-height: 16px;
+	}
+
+	#content_wrapper .main .introLink {
+		text-align: right;
+	}
+		#content_wrapper .main .introLink a {
+			margin-left: -5px;
+			padding: 3px 5px;
+		}
+	
+			#content_wrapper .main .introLink a:hover {
+				background: url('/images/white_bg_85.png');
+				background: rgba(255,255,255,0.85);
+				text-decoration: none;
+			}
+	
+	#content_wrapper .main .featured {
+		width: 290px;
+		float: left;
+		padding: 0 0;
+		margin: 0 15px 0 0;
+	}
+	
+	#content_wrapper .main .right {
+		margin:0 0 0 20px;
+}
+	
+		#content_wrapper .main .featured a:hover {
+			background-color: transparent;
+		}
+		
+		#content_wrapper .main .featured .read_more a {
+			margin-left: -5px;
+			padding: 3px 5px;
+		}
+		
+		#content_wrapper .main .featured .read_more a:hover {
+			background-color: rgba(255,255,255,0.85);
+			text-decoration: none;
+		}
+		
+	
+	#content_wrapper .main #blog {
+		clear: both;
+		overflow: auto;
+	}
+		
+		#content_wrapper .main #blog p{
+			padding-bottom: 20px;
+		}
+		
+		
+	#content_wrapper .main .team li {
+		list-style-type: none;
+		width: 275px;
+		float: left;
+		padding: 10px 25px 35px 0;
+		height: 150px;
+		overflow: hidden;
+	}
+	
+		#content_wrapper .main .team li img {
+			padding: 5px 10px 5px 0;
+			float: left;
+		}
+	
+	#content_wrapper .container {
+		width: 290px;
+		float: left;
+	}
+	
+	#content_wrapper .container right {
+		margin-left: 20px;
+	}
+		
+	#content_wrapper ul.jobs {
+		font-size: 13px;
+		line-height: 16px;
+
+		padding: 10px 25px 10px 0;
+	}
+		
+		#content_wrapper ul.jobs li {
+			padding: 3px 0;
+			margin-left: 13px;
+		}
+		
+	#content_wrapper .single_game {
+		padding: 25px 0;
+	}
+		
+		#content_wrapper .single_game img {
+			float: left;
+			padding: 0 30px 0 0;
+		}
+		
+		#content_wrapper .single_game .play_logos img {
+			padding: 0 8px 25px 0;
+		}
+		
+		#content_wrapper .col_right{
+			width: 290px;
+			float: right;
+		}
+		
+		
+.logo, .logo:hover {
+	padding: 0 0;
+	text-decoration: none;
+	width: 188px;
+	height: 84px;
+	background: transparent url('/images/bfg_logo.png') no-repeat;
+	text-indent: -5000px;
+	display: block;
+	margin: 15px 0 20px 25px;
+}	
+
+
+	
+	
+	
+.footer {
+	clear: both;
+	padding: 20px 30px 30px 30px;
+	background: #333333;
+	color: #cccccc;
+	font-size: 11px;
+	overflow: auto;
+}
+
+	#footerWrapper {
+		width:980px;
+		margin: 0 auto;
+	}
+	
+	.footerBlock {
+		width: 240px;
+		float: left;
+	}
+
+	.footer ul li {
+		list-style-type: none;
+		padding: 0 0 6px 0;
+	}
+	
+	.footerBlock p {
+		padding-bottom: 5px;
+	}
+	
+	.footerBlock a {
+		color: #cccccc;
+	}
+	
+		.footerBlock a:hover {
+			color: #000000;
+		}
+	
+	.footerBlock .apply {
+		margin: 4px 0;
+	}
+	
+	
+	.contact #content_wrapper .main {
+		margin-bottom: 200px;
+	}
+
+	.contact .footer {
+		padding-bottom: 200px;
+	}

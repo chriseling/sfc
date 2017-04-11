@@ -1,0 +1,5 @@
+AuthGroupFile /dev/null
+AuthName "Restricted Access"
+AuthType Basic
+AuthUserFile /home/sfc/domains/starfleetcalc.com/.htpasswd/public_html/.htpasswd
+require valid-user

@@ -1,0 +1,55 @@
+	* {
+		margin:0;
+		padding:0;
+	}
+	input, select {
+		font-family:calibri, Georgia, "Times New Roman", Times, 
+serif;
+		font-size:13px;
+		padding:3px;
+	}
+	td {
+		padding:3px;
+	}
+	
+	img {
+		height:25px;
+	}
+	.percent {
+		display:none;
+	}
+	.progress {
+		display:none;
+	}
+	.ship {
+		float:left;
+	}
+	#nav li {
+		list-style:none;
+		float:left;
+		margin-right:20px;
+		background-color:#CCC;
+		
+	}
+	
+	#nav li a {
+		color:#000;
+		display:block;
+		padding:10px;
+	}
+	
+	#header {
+		background-color:#CCC;
+	}
+	
+	#nav {
+		clear:both;
+	}
+	
+	a {
+		text-decoration:none;
+	}
+	
+	a:hover {
+		text-decoration:underline;
+	}
